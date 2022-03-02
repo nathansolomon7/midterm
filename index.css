@@ -22,6 +22,18 @@ header{
     position: fixed;
     left: 8%;
     line-height: 100px;
+    
+}
+.logoImg img{
+    /* position: absolute; */
+    width: 100px;
+    height: 100px;;
+    float: left;
+    padding: 10px
+}
+
+.logoImg a{
+    display:block;
 }
 .logo a{
     text-decoration: none;
@@ -29,6 +41,7 @@ header{
     font-family: "sans-serif";
     color: #fff;
     letter-spacing: 5px;
+    padding-left: 30px;
 }
 nav{
     float: right;
